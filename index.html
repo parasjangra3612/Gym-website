@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="IronForge Fitness — Premium gym with elite training programs, world-class trainers, and proven transformations. Forge your strongest self." />
+  <meta name="keywords" content="gym, fitness, personal training, weight training, muscle building, fat loss, IronForge" />
+  <title>IronForge Fitness — Forge Your Strongest Self</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== LOADING SCREEN ===== -->
+  <div id="loader" class="loader" aria-hidden="true">
+    <div class="loader__ring"></div>
+    <div class="loader__text">IRONFORGE</div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <a href="#hero" class="navbar__logo">IRON<span>FORGE</span></a>
+    <nav class="navbar__links" id="navLinks" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#membership">Pricing</a>
+      <a href="#bmi">BMI</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#membership" class="btn btn--neon navbar__cta">Join Now</a>
+    <button class="navbar__burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero" aria-label="Hero">
+    <div class="hero__bg">
+      <div class="hero__noise"></div>
+      <div class="hero__grid"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal">Est. 2015 · Premium Fitness Club</p>
+      <h1 class="hero__title reveal">
+        <span class="hero__title-line">FORGE</span>
+        <span class="hero__title-line hero__title-line--accent">YOUR</span>
+        <span class="hero__title-line">LEGACY</span>
+      </h1>
+      <p class="hero__sub reveal">Elite training programs · World-class coaches · Real results</p>
+      <div class="hero__actions reveal">
+        <a href="#membership" class="btn btn--neon btn--lg">Start Training</a>
+        <a href="#programs" class="btn btn--ghost btn--lg">Explore Programs</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat reveal"><span class="counter" data-target="12">0</span><span>K+</span><p>Members</p></div>
+      <div class="hero__stat reveal"><span class="counter" data-target="95">0</span><span>%</span><p>Success Rate</p></div>
+      <div class="hero__stat reveal"><span class="counter" data-target="40">0</span><span>+</span><p>Expert Coaches</p></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about" aria-label="About IronForge">
+    <div class="container">
+      <div class="about__layout">
+        <div class="about__visual reveal">
+          <div class="about__img-frame">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80" alt="IronForge gym interior" loading="lazy" />
+            <div class="about__badge glass">
+              <strong>10</strong>
+              <span>Years of Excellence</span>
+            </div>
+          </div>
+        </div>
+        <div class="about__text">
+          <p class="section__label reveal">About Us</p>
+          <h2 class="section__title reveal">Where Iron Meets <span class="accent">Ambition</span></h2>
+          <p class="about__body reveal">IronForge Fitness is not just a gym — it's an ecosystem built for serious athletes and determined beginners alike. Our facility is engineered for performance, designed for results, and staffed by coaches who have been where you want to go.</p>
+          <div class="about__values reveal">
+            <div class="value-card glass">
+              <div class="value-card__icon">⚡</div>
+              <h3>High-Intensity Culture</h3>
+              <p>Every rep counts. We cultivate a community that pushes limits daily.</p>
+            </div>
+            <div class="value-card glass">
+              <div class="value-card__icon">🎯</div>
+              <h3>Goal-Driven Coaching</h3>
+              <p>Personalized programs designed around your specific goals and timeline.</p>
+            </div>
+            <div class="value-card glass">
+              <div class="value-card__icon">🔬</div>
+              <h3>Science-Backed Methods</h3>
+              <p>Every program is grounded in sports science and nutrition principles.</p>
+            </div>
+          </div>
+          <div class="about__stats reveal">
+            <div class="astat">
+              <strong class="counter" data-target="5">0</strong><span>K+</span>
+              <p>Transformations</p>
+            </div>
+            <div class="astat">
+              <strong class="counter" data-target="8">0</strong><span>+</span>
+              <p>Locations</p>
+            </div>
+            <div class="astat">
+              <strong class="counter" data-target="25">0</strong><span>+</span>
+              <p>Awards Won</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROGRAMS ===== -->
+  <section id="programs" class="section programs" aria-label="Training Programs">
+    <div class="container">
+      <p class="section__label text-center reveal">What We Offer</p>
+      <h2 class="section__title text-center reveal">Training <span class="accent">Programs</span></h2>
+      <p class="section__sub text-center reveal">Choose a program tailored to your goals. Every discipline, every level, one roof.</p>
+      <div class="programs__grid">
+
+        <article class="program-card reveal" style="--c:#00FFB2">
+          <div class="program-card__icon">🏋️</div>
+          <h3>Weight Training</h3>
+          <p>Build raw strength using progressive overload, compound lifts, and periodized programming from beginner to advanced levels.</p>
+          <ul>
+            <li>Barbell & Dumbbell Fundamentals</li>
+            <li>Strength Periodization</li>
+            <li>Powerlifting Prep</li>
+          </ul>
+          <a href="#membership" class="prog-link">Enroll →</a>
+        </article>
+
+        <article class="program-card program-card--featured reveal" style="--c:#00D4FF">
+          <div class="program-card__badge">POPULAR</div>
+          <div class="program-card__icon">🔥</div>
+          <h3>Fat Loss</h3>
+          <p>Torch fat with metabolic conditioning, HIIT circuits, and nutrition coaching that delivers sustainable, measurable results.</p>
+          <ul>
+            <li>HIIT & Metabolic Training</li>
+            <li>Nutrition Planning</li>
+            <li>Weekly Progress Tracking</li>
+          </ul>
+          <a href="#membership" class="prog-link">Enroll →</a>
+        </article>
+
+        <article class="program-card reveal" style="--c:#FF6B35">
+          <div class="program-card__icon">💪</div>
+          <h3>Muscle Building</h3>
+          <p>Hypertrophy-focused training using split programs, volume manipulation, and advanced techniques for maximum muscle gain.</p>
+          <ul>
+            <li>Hypertrophy Splits</li>
+            <li>Supplement Guidance</li>
+            <li>Body Composition Analysis</li>
+          </ul>
+          <a href="#membership" class="prog-link">Enroll →</a>
+        </article>
+
+        <article class="program-card reveal" style="--c:#FFD700">
+          <div class="program-card__icon">🏅</div>
+          <h3>Personal Training</h3>
+          <p>One-on-one sessions with our elite coaches delivering fully customized programming, accountability, and expert technique correction.</p>
+          <ul>
+            <li>Custom Programming</li>
+            <li>1-on-1 Sessions</li>
+            <li>24/7 Coach Access</li>
+          </ul>
+          <a href="#membership" class="prog-link">Enroll →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TRAINERS ===== -->
+  <section id="trainers" class="section trainers" aria-label="Our Trainers">
+    <div class="container">
+      <p class="section__label text-center reveal">The Team</p>
+      <h2 class="section__title text-center reveal">Elite <span class="accent">Coaches</span></h2>
+      <p class="section__sub text-center reveal">Our trainers are certified professionals with championship-level experience.</p>
+      <div class="trainers__grid">
+
+        <article class="trainer-card reveal">
+          <div class="trainer-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?w=400&q=80" alt="Marcus Stone - Head Coach" loading="lazy" />
+            <div class="trainer-card__social">
+              <a href="#" aria-label="Marcus Instagram">IG</a>
+              <a href="#" aria-label="Marcus Twitter">TW</a>
+            </div>
+          </div>
+          <div class="trainer-card__info">
+            <h3>Marcus Stone</h3>
+            <p class="trainer-card__role">Head Strength Coach</p>
+            <p class="trainer-card__exp">12 yrs experience</p>
+            <div class="trainer-card__tags">
+              <span>Powerlifting</span><span>Strength</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="trainer-card reveal">
+          <div class="trainer-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=400&q=80" alt="Aisha Voss - HIIT Specialist" loading="lazy" />
+            <div class="trainer-card__social">
+              <a href="#" aria-label="Aisha Instagram">IG</a>
+              <a href="#" aria-label="Aisha Twitter">TW</a>
+            </div>
+          </div>
+          <div class="trainer-card__info">
+            <h3>Aisha Voss</h3>
+            <p class="trainer-card__role">HIIT & Fat Loss Specialist</p>
+            <p class="trainer-card__exp">9 yrs experience</p>
+            <div class="trainer-card__tags">
+              <span>HIIT</span><span>Nutrition</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="trainer-card reveal">
+          <div class="trainer-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1567013127542-490d757e6349?w=400&q=80" alt="Remi Diaz - Bodybuilding Coach" loading="lazy" />
+            <div class="trainer-card__social">
+              <a href="#" aria-label="Remi Instagram">IG</a>
+              <a href="#" aria-label="Remi Twitter">TW</a>
+            </div>
+          </div>
+          <div class="trainer-card__info">
+            <h3>Remi Diaz</h3>
+            <p class="trainer-card__role">Bodybuilding Coach</p>
+            <p class="trainer-card__exp">15 yrs experience</p>
+            <div class="trainer-card__tags">
+              <span>Hypertrophy</span><span>Contest Prep</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="trainer-card reveal">
+          <div class="trainer-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1604480133435-25b86862d276?w=400&q=80" alt="Yuki Tanaka - Mobility Coach" loading="lazy" />
+            <div class="trainer-card__social">
+              <a href="#" aria-label="Yuki Instagram">IG</a>
+              <a href="#" aria-label="Yuki Twitter">TW</a>
+            </div>
+          </div>
+          <div class="trainer-card__info">
+            <h3>Yuki Tanaka</h3>
+            <p class="trainer-card__role">Mobility & Recovery</p>
+            <p class="trainer-card__exp">8 yrs experience</p>
+            <div class="trainer-card__tags">
+              <span>Mobility</span><span>Yoga</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MEMBERSHIP ===== -->
+  <section id="membership" class="section membership" aria-label="Membership Plans">
+    <div class="container">
+      <p class="section__label text-center reveal">Pricing</p>
+      <h2 class="section__title text-center reveal">Membership <span class="accent">Plans</span></h2>
+      <p class="section__sub text-center reveal">No hidden fees. Cancel anytime. Invest in yourself.</p>
+      <div class="membership__toggle reveal">
+        <span id="toggleMonthly" class="active">Monthly</span>
+        <div class="membership__toggle-switch" id="billingToggle" role="switch" aria-checked="false" tabindex="0" aria-label="Toggle billing period"></div>
+        <span id="toggleAnnual">Annual <em class="save-badge">Save 20%</em></span>
+      </div>
+      <div class="plans__grid">
+
+        <article class="plan-card reveal">
+          <div class="plan-card__header">
+            <h3>Basic</h3>
+            <div class="plan-card__price">
+              <sup>$</sup><span class="price-val" data-monthly="29" data-annual="23">29</span><sub>/mo</sub>
+            </div>
+          </div>
+          <ul class="plan-card__features">
+            <li class="included">Gym Floor Access</li>
+            <li class="included">Locker Rooms</li>
+            <li class="included">Group Classes (2/week)</li>
+            <li class="included">App Access</li>
+            <li class="excluded">Personal Training</li>
+            <li class="excluded">Nutrition Coaching</li>
+            <li class="excluded">Priority Booking</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline w-full">Get Started</a>
+        </article>
+
+        <article class="plan-card plan-card--pro reveal">
+          <div class="plan-card__badge">BEST VALUE</div>
+          <div class="plan-card__header">
+            <h3>Pro</h3>
+            <div class="plan-card__price">
+              <sup>$</sup><span class="price-val" data-monthly="59" data-annual="47">59</span><sub>/mo</sub>
+            </div>
+          </div>
+          <ul class="plan-card__features">
+            <li class="included">Everything in Basic</li>
+            <li class="included">Unlimited Classes</li>
+            <li class="included">2 PT Sessions/month</li>
+            <li class="included">Nutrition Coaching</li>
+            <li class="included">Body Composition Scan</li>
+            <li class="excluded">Priority Booking</li>
+            <li class="excluded">Guest Passes</li>
+          </ul>
+          <a href="#contact" class="btn btn--neon w-full">Get Started</a>
+        </article>
+
+        <article class="plan-card reveal">
+          <div class="plan-card__header">
+            <h3>Elite</h3>
+            <div class="plan-card__price">
+              <sup>$</sup><span class="price-val" data-monthly="99" data-annual="79">99</span><sub>/mo</sub>
+            </div>
+          </div>
+          <ul class="plan-card__features">
+            <li class="included">Everything in Pro</li>
+            <li class="included">Unlimited PT Sessions</li>
+            <li class="included">Priority Class Booking</li>
+            <li class="included">4 Guest Passes/month</li>
+            <li class="included">Recovery Suite Access</li>
+            <li class="included">Quarterly Assessments</li>
+            <li class="included">VIP Lounge</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline w-full">Get Started</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BMI CALCULATOR ===== -->
+  <section id="bmi" class="section bmi-section" aria-label="BMI Calculator">
+    <div class="container">
+      <div class="bmi__layout">
+        <div class="bmi__intro reveal">
+          <p class="section__label">Health Check</p>
+          <h2 class="section__title">BMI <span class="accent">Calculator</span></h2>
+          <p>Calculate your Body Mass Index to understand where you stand and which IronForge program fits your goals best.</p>
+          <div class="bmi__categories">
+            <div class="bmi-cat" style="--cc:#3b82f6"><span class="dot"></span>Underweight &lt; 18.5</div>
+            <div class="bmi-cat" style="--cc:#00FFB2"><span class="dot"></span>Normal 18.5 – 24.9</div>
+            <div class="bmi-cat" style="--cc:#FFD700"><span class="dot"></span>Overweight 25 – 29.9</div>
+            <div class="bmi-cat" style="--cc:#FF6B35"><span class="dot"></span>Obese ≥ 30</div>
+          </div>
+        </div>
+        <div class="bmi__calc glass reveal">
+          <div class="bmi__units">
+            <button class="unit-btn active" data-unit="metric">Metric</button>
+            <button class="unit-btn" data-unit="imperial">Imperial</button>
+          </div>
+          <div id="metricFields">
+            <div class="bmi__field">
+              <label for="heightCm">Height (cm)</label>
+              <input type="number" id="heightCm" placeholder="175" min="50" max="300" />
+            </div>
+            <div class="bmi__field">
+              <label for="weightKg">Weight (kg)</label>
+              <input type="number" id="weightKg" placeholder="70" min="10" max="500" />
+            </div>
+          </div>
+          <div id="imperialFields" style="display:none">
+            <div class="bmi__field">
+              <label for="heightFt">Height (ft)</label>
+              <input type="number" id="heightFt" placeholder="5" min="1" max="9" />
+            </div>
+            <div class="bmi__field">
+              <label for="heightIn">Height (in)</label>
+              <input type="number" id="heightIn" placeholder="9" min="0" max="11" />
+            </div>
+            <div class="bmi__field">
+              <label for="weightLbs">Weight (lbs)</label>
+              <input type="number" id="weightLbs" placeholder="154" min="20" max="1000" />
+            </div>
+          </div>
+          <button class="btn btn--neon w-full" id="calcBMI">Calculate BMI</button>
+          <div class="bmi__result" id="bmiResult" aria-live="polite">
+            <div class="bmi__result-ring">
+              <svg viewBox="0 0 120 120" aria-hidden="true">
+                <circle cx="60" cy="60" r="50" class="ring-bg" />
+                <circle cx="60" cy="60" r="50" class="ring-progress" id="bmiRing" />
+              </svg>
+              <div class="bmi__result-val">
+                <strong id="bmiValue">—</strong>
+                <span id="bmiLabel">Enter values</span>
+              </div>
+            </div>
+            <p id="bmiAdvice" class="bmi__advice"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section id="gallery" class="section gallery" aria-label="Transformation Gallery">
+    <div class="container">
+      <p class="section__label text-center reveal">Proof of Work</p>
+      <h2 class="section__title text-center reveal">Real <span class="accent">Transformations</span></h2>
+      <p class="section__sub text-center reveal">Our members don't just work out — they transform. Here's the proof.</p>
+      <div class="gallery__grid">
+
+        <article class="transform-card reveal">
+          <div class="transform-card__inner">
+            <div class="transform-card__before">
+              <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&q=80" alt="Before transformation" loading="lazy" />
+              <span class="transform-label">Before</span>
+            </div>
+            <div class="transform-card__after">
+              <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=400&q=80" alt="After transformation" loading="lazy" />
+              <span class="transform-label after">After</span>
+            </div>
+          </div>
+          <div class="transform-card__info">
+            <strong>Jake M.</strong> — Lost 28kg in 5 months
+            <span>Fat Loss Program</span>
+          </div>
+        </article>
+
+        <article class="transform-card reveal">
+          <div class="transform-card__inner">
+            <div class="transform-card__before">
+              <img src="https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=400&q=80" alt="Before transformation" loading="lazy" />
+              <span class="transform-label">Before</span>
+            </div>
+            <div class="transform-card__after">
+              <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&q=80" alt="After transformation" loading="lazy" />
+              <span class="transform-label after">After</span>
+            </div>
+          </div>
+          <div class="transform-card__info">
+            <strong>Sara K.</strong> — Gained 8kg muscle in 6 months
+            <span>Muscle Building</span>
+          </div>
+        </article>
+
+        <article class="transform-card reveal">
+          <div class="transform-card__inner">
+            <div class="transform-card__before">
+              <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=400&q=80" alt="Before transformation" loading="lazy" />
+              <span class="transform-label">Before</span>
+            </div>
+            <div class="transform-card__after">
+              <img src="https://images.unsplash.com/photo-1549476464-37392f717541?w=400&q=80" alt="After transformation" loading="lazy" />
+              <span class="transform-label after">After</span>
+            </div>
+          </div>
+          <div class="transform-card__info">
+            <strong>Derek T.</strong> — Competed in first powerlifting meet
+            <span>Strength Program</span>
+          </div>
+        </article>
+
+        <article class="transform-card reveal">
+          <div class="transform-card__inner">
+            <div class="transform-card__before">
+              <img src="https://images.unsplash.com/photo-1487956382158-bb926046304a?w=400&q=80" alt="Before transformation" loading="lazy" />
+              <span class="transform-label">Before</span>
+            </div>
+            <div class="transform-card__after">
+              <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80" alt="After transformation" loading="lazy" />
+              <span class="transform-label after">After</span>
+            </div>
+          </div>
+          <div class="transform-card__info">
+            <strong>Mia R.</strong> — Total body recomposition in 4 months
+            <span>Personal Training</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section id="testimonials" class="section testimonials" aria-label="Member Testimonials">
+    <div class="container">
+      <p class="section__label text-center reveal">Member Reviews</p>
+      <h2 class="section__title text-center reveal">What They <span class="accent">Say</span></h2>
+      <div class="testimonials__track-wrap">
+        <div class="testimonials__track" id="testimonialTrack">
+
+          <article class="tcard glass">
+            <div class="tcard__stars">★★★★★</div>
+            <p>"IronForge completely changed my relationship with fitness. Marcus helped me go from barely benching the bar to 120kg in under a year. Best investment I've ever made."</p>
+            <div class="tcard__author">
+              <img src="https://i.pravatar.cc/60?img=12" alt="James L." loading="lazy" />
+              <div><strong>James L.</strong><span>Member since 2022</span></div>
+            </div>
+          </article>
+
+          <article class="tcard glass">
+            <div class="tcard__stars">★★★★★</div>
+            <p>"Aisha's fat loss program is INSANE. I lost 22kg and kept it off for two years. The nutrition coaching alone is worth triple the price. Life-changing stuff."</p>
+            <div class="tcard__author">
+              <img src="https://i.pravatar.cc/60?img=44" alt="Priya S." loading="lazy" />
+              <div><strong>Priya S.</strong><span>Member since 2021</span></div>
+            </div>
+          </article>
+
+          <article class="tcard glass">
+            <div class="tcard__stars">★★★★★</div>
+            <p>"The facilities are world-class and the community here is unmatched. I've been to gyms all over the world and IronForge is genuinely on another level."</p>
+            <div class="tcard__author">
+              <img src="https://i.pravatar.cc/60?img=33" alt="Tom W." loading="lazy" />
+              <div><strong>Tom W.</strong><span>Member since 2020</span></div>
+            </div>
+          </article>
+
+          <article class="tcard glass">
+            <div class="tcard__stars">★★★★★</div>
+            <p>"Remi is an absolute legend. His bodybuilding program had me winning my first physique competition within 8 months. The programming is next level."</p>
+            <div class="tcard__author">
+              <img src="https://i.pravatar.cc/60?img=55" alt="Carlos M." loading="lazy" />
+              <div><strong>Carlos M.</strong><span>Member since 2023</span></div>
+            </div>
+          </article>
+
+          <article class="tcard glass">
+            <div class="tcard__stars">★★★★★</div>
+            <p>"After my knee surgery, Yuki's mobility program got me back to 100% in 3 months. The personal attention and expertise here is something you simply can't find elsewhere."</p>
+            <div class="tcard__author">
+              <img src="https://i.pravatar.cc/60?img=20" alt="Rachel B." loading="lazy" />
+              <div><strong>Rachel B.</strong><span>Member since 2022</span></div>
+            </div>
+          </article>
+
+        </div>
+        <div class="testimonials__dots" id="testimonialDots" aria-label="Testimonial navigation"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact" aria-label="Contact IronForge">
+    <div class="container">
+      <p class="section__label text-center reveal">Get In Touch</p>
+      <h2 class="section__title text-center reveal">Start Your <span class="accent">Journey</span></h2>
+      <div class="contact__layout">
+
+        <div class="contact__info reveal">
+          <div class="contact-item glass">
+            <div class="contact-item__icon">📍</div>
+            <div>
+              <strong>Location</strong>
+              <p>47 Iron District, Steel City, SC 90210</p>
+            </div>
+          </div>
+          <div class="contact-item glass">
+            <div class="contact-item__icon">📞</div>
+            <div>
+              <strong>Phone</strong>
+              <p><a href="tel:+18005550199">+1 (800) 555-0199</a></p>
+            </div>
+          </div>
+          <div class="contact-item glass">
+            <div class="contact-item__icon">✉️</div>
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:hello@ironforge.fit">hello@ironforge.fit</a></p>
+            </div>
+          </div>
+          <div class="contact-item glass">
+            <div class="contact-item__icon">🕐</div>
+            <div>
+              <strong>Hours</strong>
+              <p>Mon–Fri: 5am–11pm<br>Sat–Sun: 6am–9pm</p>
+            </div>
+          </div>
+          <div class="contact__socials">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter/X">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact__form glass reveal" id="contactForm" novalidate>
+          <h3>Send a Message</h3>
+          <div class="form-row">
+            <div class="form__field">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="fname" placeholder="John" required />
+            </div>
+            <div class="form__field">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lname" placeholder="Doe" required />
+            </div>
+          </div>
+          <div class="form__field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form__field">
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" />
+          </div>
+          <div class="form__field">
+            <label for="interest">I'm interested in</label>
+            <select id="interest" name="interest">
+              <option value="">Select a program…</option>
+              <option>Weight Training</option>
+              <option>Fat Loss</option>
+              <option>Muscle Building</option>
+              <option>Personal Training</option>
+              <option>General Membership</option>
+            </select>
+          </div>
+          <div class="form__field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us about your goals…"></textarea>
+          </div>
+          <button type="submit" class="btn btn--neon w-full">Send Message</button>
+          <p class="form__success" id="formSuccess" aria-live="polite">✅ Message sent! We'll be in touch within 24 hours.</p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#hero" class="navbar__logo footer__logo">IRON<span>FORGE</span></a>
+          <p>The premium fitness destination for people who take their goals seriously. Forge your strongest self — starting today.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#trainers">Coaches</a></li>
+            <li><a href="#membership">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="#programs">Weight Training</a></li>
+            <li><a href="#programs">Fat Loss</a></li>
+            <li><a href="#programs">Muscle Building</a></li>
+            <li><a href="#programs">Personal Training</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#bmi">BMI Calculator</a></li>
+            <li><a href="#gallery">Transformations</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 IronForge Fitness. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#hero" class="back-to-top" id="backToTop" aria-label="Back to top">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
